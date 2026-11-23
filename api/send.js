@@ -64,6 +64,6 @@ ${message}
 
         return res.status(500).json({
             error: "Error interno del servidor."
-        });
+        })
     }
 }
